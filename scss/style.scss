@@ -18,14 +18,16 @@ $rosa: #CC4B3D;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container-fluid {
     margin: 0;
-    padding: ;
+    padding: 0;
 }
+
 .container-fluid .row {
     margin: 0;
     padding: 0;
-   
+
 }
 
 html {
@@ -120,7 +122,7 @@ body {
 
 
 .cards-menu {
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,7 +239,7 @@ footer {
         font-size: 1.8rem;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
-       
+
 
     }
 
@@ -267,7 +269,7 @@ footer {
 }
 
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
     html {
         font-size: 50%;
     }
@@ -275,16 +277,45 @@ footer {
 
 }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (max-width: 768px) {
     html {
         font-size: 30%;
     }
 
-    .header-index {
-        height: 45rem;
+    body {
+        background: #0C0E19;
+        background-image: linear-gradient(to bottom,
+                #0C0E19 1.13%,
+                #132E3B 3.54%,
+                #132E3B 7.54%,
+                #0C6073 12.72%,
+                #0C6073 15.72%,
+                #132E3B 20.54%,
+                #0C0E19 31.84%,
+                #0C0E19 50.58%,
+                #0C0E19 58.62%,
+                #0C0E19 63.62%,
+                #132E3B 74.54%,
+                #0C0E19 85.32%);
     }
 
+    .header-index {
+        height: 45rem;
+        .btn {
+           
+            margin-top: 0.3rem;
+          
+    
+            
+        }
+    }
+
+
     .sobre-mi {
+
+        height: 60rem;
+        background-position: 0 80px;
+
         .card {
             width: 70rem;
 
@@ -294,4 +325,5 @@ footer {
 
         }
     }
+
 }
