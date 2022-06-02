@@ -172,7 +172,7 @@ header .texto-header .btn a {
   font-family: 'Bad Script', cursive;
   font-size: 6rem;
   text-align: center;
-  margin: 10rem 0;
+  margin: 5rem 0;
 }
 
 .cards-menu {
@@ -327,8 +327,5 @@ footer h6 {
     margin-top: 2rem;
     position: relative;
     height: 50rem;
-  }
-  .titulo-index {
-    margin: 5rem 0;
   }
 }
