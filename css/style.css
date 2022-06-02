@@ -84,6 +84,10 @@
   padding: 0;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -118,24 +122,30 @@ body {
   background-image: linear-gradient(to bottom, #0C0E19 3.13%, #0C6073 21.72%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
 }
 
-.header-index {
-  background-image: url(../img/header-4.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 1.5rem;
-  margin-right: 3rem;
-  height: 70rem;
+header {
+  position: relative;
+  height: 65rem;
 }
 
-.header-index h1 {
+header .img-header {
+  position: absolute;
+  top: 2rem;
+  bottom: 0;
+}
+
+header .texto-header {
+  position: absolute;
+  top: 2rem;
+}
+
+header .texto-header h1 {
   font-family: 'Bad Script', cursive;
-  font-size: 7rem;
+  font-size: 6.4rem;
   margin-left: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
-.header-index h2 {
+header .texto-header h2 {
   font-family: 'Bad Script', cursive;
   font-size: 3.5rem;
   margin-left: 2.5rem;
@@ -143,9 +153,9 @@ body {
   margin-bottom: 2rem;
 }
 
-.header-index .btn {
+header .texto-header .btn {
   margin-left: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   width: 13rem;
   height: 4.2rem;
   border: #CC4B3D solid 0.3rem;
@@ -153,7 +163,7 @@ body {
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.header-index .btn a {
+header .texto-header .btn a {
   font-size: 2rem;
   color: #fff;
 }
@@ -162,7 +172,7 @@ body {
   font-family: 'Bad Script', cursive;
   font-size: 6rem;
   text-align: center;
-  margin-bottom: 5rem;
+  margin: 10rem 0;
 }
 
 .cards-menu {
@@ -192,7 +202,7 @@ body {
   font-family: 'Bad Script', cursive;
   font-size: 4rem;
   text-align: center;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
 }
 
 .container-tarot {
@@ -225,39 +235,40 @@ body {
   font-weight: 300;
 }
 
-.sobre-mi {
-  background-image: url(../img/footer-final.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 1.5rem;
-  margin-right: 3rem;
-  height: 72rem;
-  background-position: 0 70px;
+.container-sobre-mi {
+  margin-top: 10rem;
+  position: relative;
+  height: 60rem;
 }
 
-.sobre-mi .card {
+.container-sobre-mi .img-fondo-sobre-mi {
+  position: absolute;
+  bottom: 0;
+}
+
+.container-sobre-mi .card-sobre-mi {
+  position: absolute;
+  top: 0;
+  left: 2.5rem;
   background-color: transparent;
-  margin-top: 7rem;
-  margin-left: 2.5rem;
   border: none;
-  width: 80rem;
+  width: 62%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.sobre-mi .card img {
-  height: 35rem;
+.container-sobre-mi .card-sobre-mi img {
+  width: 25rem;
 }
 
-.sobre-mi .card .card-title {
+.container-sobre-mi .card-sobre-mi .card-title {
   font-family: 'Bad Script', cursive;
   color: #fff;
   font-size: 3rem;
 }
 
-.sobre-mi .card .card-text {
+.container-sobre-mi .card-sobre-mi .card-text {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
@@ -304,72 +315,20 @@ footer h6 {
   text-align: center;
 }
 
-@media (max-width: 1650px) {
-  html {
-    font-size: 70%;
-  }
-}
-
-@media (max-width: 1280px) {
-  html {
-    font-size: 50%;
-  }
-  .header-index {
-    height: 80rem;
-  }
-  .header-index .btn {
-    margin-top: 0.3rem;
-  }
-}
-
 @media (max-width: 767px) {
   html {
-    font-size: 30%;
+    font-size: 25%;
   }
   body {
     background: #0C0E19;
     background-image: linear-gradient(to bottom, #0C0E19 1.13%, #132E3B 3.54%, #132E3B 7.54%, #0C6073 12.72%, #0C6073 15.72%, #132E3B 20.54%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
   }
-  .header-index {
-    height: 50%;
+  header {
+    margin-top: 2rem;
+    position: relative;
+    height: 50rem;
   }
-  .header-index .btn {
-    margin-top: 0.3rem;
-  }
-  .sobre-mi {
-    height: 60rem;
-    background-position: 0 80px;
-  }
-  .sobre-mi .card {
-    width: 70rem;
-  }
-  .sobre-mi .card img {
-    height: 25rem;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 30%;
-  }
-  body {
-    background: #0C0E19;
-    background-image: linear-gradient(to bottom, #0C0E19 1.13%, #132E3B 3.54%, #132E3B 7.54%, #0C6073 12.72%, #0C6073 15.72%, #132E3B 20.54%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
-  }
-  .header-index {
-    height: 45rem;
-  }
-  .header-index .btn {
-    margin-top: 0.3rem;
-  }
-  .sobre-mi {
-    height: 60rem;
-    background-position: 0 80px;
-  }
-  .sobre-mi .card {
-    width: 70rem;
-  }
-  .sobre-mi .card img {
-    height: 25rem;
+  .titulo-index {
+    margin: 5rem 0;
   }
 }

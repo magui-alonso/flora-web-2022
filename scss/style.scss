@@ -30,6 +30,10 @@ $rosa: #CC4B3D;
 
 }
 
+.img-fluid {
+    width: 100%;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -73,43 +77,52 @@ body {
             #0C0E19 85.32%);
 }
 
-.header-index {
-    background-image: url(../img/header-4.png);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 1.5rem;
-    margin-right: 3rem;
-    height: 70rem;
+header {
+    
+    position: relative;
+    height: 65rem;
+    
 
-    h1 {
-        font-family: 'Bad Script', cursive;
-        font-size: 7rem;
-        margin-left: 2.5rem;
-        margin-top: 5rem;
+    .img-header {
+        position: absolute;
+        top: 2rem;
+        bottom: 0;
     }
 
-    h2 {
-        font-family: 'Bad Script', cursive;
-        font-size: 3.5rem;
-        margin-left: 2.5rem;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
+    .texto-header {
+        position: absolute;
+        top: 2rem;
 
-    .btn {
-        margin-left: 2.5rem;
-        margin-top: 5rem;
-        width: 13rem;
-        height: 4.2rem;
-        border: $rosa solid 0.3rem;
-        border-radius: 2rem;
-        box-shadow: 0px 4px 4px 0px #00000040;
-
-        a {
-            font-size: 2rem;
-            color: $blanco;
+        h1 {
+            font-family: 'Bad Script', cursive;
+            font-size: 6.4rem;
+            margin-left: 2.5rem;
+            margin-top: 2rem;
         }
+
+        h2 {
+            font-family: 'Bad Script', cursive;
+            font-size: 3.5rem;
+            margin-left: 2.5rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            margin-left: 2.5rem;
+            margin-top: 3rem;
+            width: 13rem;
+            height: 4.2rem;
+            border: $rosa solid 0.3rem;
+            border-radius: 2rem;
+            box-shadow: 0px 4px 4px 0px #00000040;
+
+            a {
+                font-size: 2rem;
+                color: $blanco;
+            }
+        }
+
     }
 }
 
@@ -117,9 +130,9 @@ body {
     font-family: 'Bad Script', cursive;
     font-size: 6rem;
     text-align: center;
-    margin-bottom: 5rem;
-}
+    margin: 10rem 0;
 
+}
 
 .cards-menu {
 
@@ -149,7 +162,7 @@ body {
     font-family: 'Bad Script', cursive;
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
 }
 
 .container-tarot {
@@ -182,31 +195,32 @@ body {
     }
 }
 
-.sobre-mi {
-    background-image: url(../img/footer-final.png);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 1.5rem;
-    margin-right: 3rem;
-    height: 72rem;
-    background-position: 0 70px;
+.container-sobre-mi {
 
+    margin-top: 10rem;
+    position: relative;
+    height: 60rem;
+    
+    
+    .img-fondo-sobre-mi {
+        position: absolute;
+        bottom: 0;
+    }
 
-
-    .card {
+    .card-sobre-mi {
+        position: absolute;
+        top: 0;
+        left: 2.5rem;
         background-color: transparent;
-        margin-top: 7rem;
-        margin-left: 2.5rem;
         border: none;
-        width: 80rem;
+        width: 62%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-
+        
 
         img {
-            height: 35rem;
+            width: 25rem;
         }
 
         .card-title {
@@ -222,9 +236,7 @@ body {
             font-weight: 300;
         }
     }
-
 }
-
 
 
 footer {
@@ -269,33 +281,13 @@ footer {
     }
 }
 
-@media (max-width: 1650px) {
-    html {
-        font-size: 70%;
-    }
-}
-
-@media (max-width: 1280px) {
-    html {
-        font-size: 50%;
-    }
-    .header-index {
-        height: 80rem;
-        .btn {
-           
-            margin-top: 0.3rem;
-          
-    
-            
-        }
-    }
 
 
-}
+
 
 @media (max-width: 767px) {
     html {
-        font-size: 30%;
+        font-size: 25%;
     }
 
     body {
@@ -314,82 +306,19 @@ footer {
                 #132E3B 74.54%,
                 #0C0E19 85.32%);
     }
+    header {
+        margin-top: 2rem;
+        position: relative;
+        height: 50rem;
+    }
 
-    .header-index {
-        height: 50%;
-        .btn {
-           
-            margin-top: 0.3rem;
-          
+    .titulo-index {
+        
+        margin: 5rem 0;
     
-            
-        }
     }
 
 
-    .sobre-mi {
-
-        height: 60rem;
-        background-position: 0 80px;
-
-        .card {
-            width: 70rem;
-
-            img {
-                height: 25rem;
-            }
-
-        }
-    }
 
 }
-@media (max-width: 480px)  {
-    html {
-        font-size: 30%;
-    }
 
-    body {
-        background: #0C0E19;
-        background-image: linear-gradient(to bottom,
-                #0C0E19 1.13%,
-                #132E3B 3.54%,
-                #132E3B 7.54%,
-                #0C6073 12.72%,
-                #0C6073 15.72%,
-                #132E3B 20.54%,
-                #0C0E19 31.84%,
-                #0C0E19 50.58%,
-                #0C0E19 58.62%,
-                #0C0E19 63.62%,
-                #132E3B 74.54%,
-                #0C0E19 85.32%);
-    }
-
-    .header-index {
-        height: 45rem;
-        .btn {
-           
-            margin-top: 0.3rem;
-          
-    
-            
-        }
-    }
-
-
-    .sobre-mi {
-
-        height: 60rem;
-        background-position: 0 80px;
-
-        .card {
-            width: 70rem;
-
-            img {
-                height: 25rem;
-            }
-
-        }
-    }
-
-}
