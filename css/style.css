@@ -345,6 +345,11 @@ footer h6 {
   height: auto;
 }
 
+.menu-cards-blog .cards-blog p {
+  padding: 5px;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   html {
     font-size: 25%;
