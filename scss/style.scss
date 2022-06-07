@@ -217,7 +217,9 @@ header {
         }
     }
 }
-
+.modal-content {
+    background-color: #0C0E19;
+}
 .modal-body {
     display: flex;
     flex-direction: column;
