@@ -1,71 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
-.modal-content {
-  background-color: #0C0E19;
-}
-
-.portfolio .portfolio-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.portfolio .portfolio-item .portfolio-item-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-image: url(../img/tarot-2.png);
-  background-repeat: no-repeat;
-}
-
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
-  filter: drop-shadow(0.3rem 0.3rem 0.3rem #2D4450);
-}
-
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
-}
-
-.portfolio-modal .btn-close {
-  color: #fff;
-  font-size: 2rem;
-  padding: 1rem;
-}
-
-.portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-}
-
-.portfolio-modal p {
-  font-size: 1.8rem;
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-}
-
-.carta-tarot {
-  color: #0C0E19;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 10rem;
-  font-weight: bolder;
-}
-
-@media (min-width: 992px) {
-  .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
-
 /* font-family: 'Open Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 /* font-family: 'Bad Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 * {
   margin: 0;
   padding: 0;
