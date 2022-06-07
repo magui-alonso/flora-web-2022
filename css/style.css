@@ -299,7 +299,7 @@ footer .redes img {
 }
 
 footer .redes img:hover {
-  filter: drop-shadow(0.3rem 0.3rem 0.3rem #2D4450);
+  filter: drop-shadow(3px 3px 3px #2D4450);
   opacity: 70%;
 }
 
