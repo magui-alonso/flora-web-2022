@@ -78,10 +78,10 @@ body {
 }
 
 header {
-    
+
     position: relative;
     height: 65rem;
-    
+
 
     .img-header {
         position: absolute;
@@ -200,8 +200,8 @@ header {
     margin-top: 10rem;
     position: relative;
     height: 60rem;
-    
-    
+
+
     .img-fondo-sobre-mi {
         position: absolute;
         bottom: 0;
@@ -217,7 +217,7 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        
+
 
         img {
             width: 25rem;
@@ -281,6 +281,40 @@ footer {
     }
 }
 
+//----------------- BLOG ----------------
+
+.body-blog {
+    width: 100%;
+    margin: auto;
+}
+
+.menu-cards-blog {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: auto;
+
+    .cards-blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 0.4rem $blanco solid;
+        background-color: #2D4450;
+
+        &:hover {
+            border-bottom: 0.4rem $rosa solid;
+            box-shadow: 0 8px 6px -6px black;
+        }
+
+        img {
+            width: 90%;
+            height: auto;
+        }
+    }
+
+}
+
 
 
 
@@ -306,6 +340,7 @@ footer {
         //         #132E3B 74.54%,
         //         #0C0E19 85.32%);
     }
+
     header {
         margin-top: 2rem;
         position: relative;
@@ -316,4 +351,3 @@ footer {
 
 
 }
-
