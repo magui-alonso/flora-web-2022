@@ -142,6 +142,18 @@ header .texto-header h2 {
   margin-bottom: 2rem;
 }
 
+header .texto-header .btn {
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+header .texto-header .btn a {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
 .titulo-index {
   font-family: 'Bad Script', cursive;
   font-size: 6rem;
