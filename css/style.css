@@ -113,7 +113,7 @@ header .texto-header .boton:hover {
 .titulo-index {
   font-family: "Bad Script", cursive;
   text-align: center;
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .menu-cards {
@@ -149,7 +149,7 @@ header .texto-header .boton:hover {
 .titulo-tarot {
   font-family: "Bad Script", cursive;
   text-align: center;
-  margin: 30px 0;
+  margin: 50px 0 25px 0;
 }
 
 .cards-tarot {
@@ -172,6 +172,7 @@ header .texto-header .boton:hover {
 
 .cards-tarot .boton-tarot img {
   width: 80%;
+  margin-bottom: 30px;
 }
 
 .modal-content {
