@@ -19,20 +19,17 @@ $rosa: #CC4B3D;
     box-sizing: border-box;
 }
 
-.container-fluid {
-    margin: 0;
-    padding: 0;
-}
+// .container-fluid {
+//     margin: 0;
+//     padding: 0;
+// }
 
-.container-fluid .row {
-    margin: 0;
-    padding: 0;
+// .container-fluid .row {
+//     margin: 0;
+//     padding: 0;
 
-}
+// }
 
-.img-fluid {
-    width: 100%;
-}
 
 html {
     font-size: 62.5%;
@@ -40,6 +37,9 @@ html {
 
 p {
     font-size: 1.8rem;
+}
+.img-fluid {
+    width: 100%;
 }
 
 p,
@@ -51,7 +51,6 @@ h5,
 h6 {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 a {
@@ -133,30 +132,38 @@ header {
     margin: 5rem 0;
 
 }
+// ------------menu cards---------
 
-.cards-menu {
-
+.menu-cards {
+    width: 95%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-bottom: 0.4rem $blanco solid;
-    margin-bottom: 5rem;
-    padding: 1rem;
+    flex-direction: row;
+    justify-content:center;
+    margin: auto;
 
-    &:hover {
-        border-bottom: 0.4rem $rosa solid;
-        box-shadow: 0 8px 6px -6px black;
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 0.4rem $blanco solid;
+
+        &:hover {
+            border-bottom: 0.4rem $rosa solid;
+            box-shadow: 0 8px 6px -6px black;
+        }
+
+        img {
+            width: 40%;
+            height: auto;
+        }
+        p{
+            padding: 0 2rem;
+            text-align: center;
+        }
     }
 
-    img {
-        height: 10rem;
-    }
-
-    h2 {
-        font-size: 2.4rem;
-    }
 }
+
 
 .titulo-tarot {
     font-family: 'Bad Script', cursive;
@@ -288,36 +295,7 @@ footer {
     margin: auto;
 }
 
-.menu-cards-blog {
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    margin: auto;
 
-    .cards-blog {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-bottom: 0.4rem $blanco solid;
-        background-color: #2D4450;
-
-        &:hover {
-            border-bottom: 0.4rem $rosa solid;
-            box-shadow: 0 8px 6px -6px black;
-        }
-
-        img {
-            width: 90%;
-            height: auto;
-        }
-        p{
-            padding: 5px;
-            text-align: center;
-        }
-    }
-
-}
 
 
 
