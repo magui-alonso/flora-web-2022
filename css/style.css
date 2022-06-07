@@ -119,7 +119,7 @@ a:hover {
 
 body {
   background: #0C0E19;
-  background-image: linear-gradient(to bottom, #0C0E19 3.13%, #0C6073 21.72%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
+  background: linear-gradient(to bottom, #0C0E19 3.13%, #0C6073 21.72%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
 }
 
 header {
@@ -321,7 +321,7 @@ footer h6 {
   }
   body {
     background: #0C0E19;
-    background-image: linear-gradient(to bottom, #0C0E19 1.13%, #132E3B 3.54%, #132E3B 7.54%, #0C6073 12.72%, #0C6073 15.72%, #132E3B 20.54%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
+    background: linear-gradient(to bottom, #0C0E19 1.13%, #132E3B 3.54%, #132E3B 7.54%, #0C6073 12.72%, #0C6073 15.72%, #132E3B 20.54%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
   }
   header {
     margin-top: 2rem;
