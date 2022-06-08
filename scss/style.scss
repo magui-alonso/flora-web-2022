@@ -206,20 +206,23 @@ header {
         border: 0;
 
         &:hover {
-
             opacity: 1;
-            filter: drop-shadow(2px 2px 2px $blanco)
+            filter: drop-shadow(3px 3px 3px #2D4450);
         }
 
         img {
             width: 80%;
             margin-bottom: 30px;
+
+
         }
     }
 }
+
 .modal-content {
     background-color: #0C0E19;
 }
+
 .modal-body {
     display: flex;
     flex-direction: column;
@@ -324,38 +327,206 @@ footer {
 
 
 
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 
 
 
-// @media (max-width: 767px) {
-//     html {
-//         font-size: 25%;
-//     }
+    body {
+        background: #0C0E19;
+        background: linear-gradient(to bottom,
+                #0C0E19 3.13%,
+                #0C6073 21.72%,
+                #0C0E19 31.84%,
+                #0C0E19 50.58%,
+                #0C0E19 58.62%,
+                #0C0E19 63.62%,
+                #132E3B 74.54%,
+                #0C0E19 85.32%);
+    }
 
-//     body {
-//         background: #0C0E19;
-//         // background: linear-gradient(to bottom,
-//         //         #0C0E19 1.13%,
-//         //         #132E3B 3.54%,
-//         //         #132E3B 7.54%,
-//         //         #0C6073 12.72%,
-//         //         #0C6073 15.72%,
-//         //         #132E3B 20.54%,
-//         //         #0C0E19 31.84%,
-//         //         #0C0E19 50.58%,
-//         //         #0C0E19 58.62%,
-//         //         #0C0E19 63.62%,
-//         //         #132E3B 74.54%,
-//         //         #0C0E19 85.32%);
-//     }
+    header {
 
-//     header {
-//         margin-top: 2rem;
-//         position: relative;
-//         height: 50rem;
-//     }
+        position: relative;
+        height: 750px;
 
 
+        .img-header {
+            position: absolute;
+            top: 30px;
+            bottom: 0;
+        }
+
+        .texto-header {
+            top: 20px;
+
+            h1 {
+                margin-left: 25px;
+                margin-top: 20px;
+            }
+
+            h4 {
+                font-family: $bad;
+                margin-left: 25px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            .boton {
+                margin-left: 25px;
+                margin-top: 10px;
+                font-size: 20px;
+                padding: 10px;
+                border: $rosa solid 4px;
+                border-radius: 60px;
+                box-shadow: 0px 4px 4px 0px #00000040;
 
 
-// }
+
+            }
+
+        }
+    }
+
+    .titulo-index {
+        margin: 40px 0;
+
+    }
+
+    // ------------menu cards---------
+
+    .menu-cards {
+
+
+        .cards {
+            border-bottom: 4px $blanco solid;
+
+            &:hover {
+                border-bottom: 4px $rosa solid;
+                box-shadow: 0 8px 6px -6px black;
+            }
+
+            img {
+                width: 50%;
+            }
+
+            p {
+                padding: 0 15px;
+            }
+        }
+
+    }
+
+
+    .titulo-tarot {
+        margin: 100px 0 50px 0;
+    }
+
+    .cards-tarot {
+
+        justify-content: space-around;
+
+        .boton-tarot {
+
+            &:hover {
+                filter: drop-shadow(4px 4px 4px #2D4450);
+            }
+
+            img {
+                width: 100%;
+                margin-bottom: 60px;
+            }
+        }
+    }
+
+
+    .modal-body {
+
+        img {
+            margin-bottom: 20px;
+
+        }
+    }
+
+
+
+    .container-sobre-mi {
+        margin-top: 200px;
+        height: 700px;
+
+        .card-sobre-mi {
+            left: 25px;
+            width: 60%;
+
+            img {
+                width: 25%;
+                box-shadow: 0px 6px 6px 0px #00000040;
+
+            }
+
+            div {
+                margin-left: 20px;
+            }
+
+            .card-title {
+                font-family: $bad;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+
+        .redes {
+            margin: 30px;
+
+            img {
+                width: 50px;
+
+                &:hover {
+                    filter: drop-shadow(6px 6px 6px #2D4450);
+
+                }
+            }
+
+        }
+
+    }
+
+
+
+}
