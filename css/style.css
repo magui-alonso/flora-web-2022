@@ -100,7 +100,7 @@ header .texto-header .boton {
   margin-top: 5px;
   font-size: 10px;
   color: #ffffff;
-  padding: 5px;
+  padding: 3px 15px;
   border: #CC4B3D solid 1px;
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -113,7 +113,7 @@ header .texto-header .boton:hover {
 .titulo-index {
   font-family: "Bad Script", cursive;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .menu-cards {
@@ -137,7 +137,7 @@ header .texto-header .boton:hover {
 }
 
 .menu-cards .cards img {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 
