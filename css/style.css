@@ -101,7 +101,7 @@ header .texto-header .boton {
   font-size: 10px;
   color: #ffffff;
   padding: 5px;
-  border: #CC4B3D solid 2px;
+  border: #CC4B3D solid 1px;
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
@@ -167,7 +167,7 @@ header .texto-header .boton:hover {
 
 .cards-tarot .boton-tarot:hover {
   opacity: 1;
-  filter: drop-shadow(3px 3px 3px #2D4450);
+  filter: drop-shadow(4px 4px 4px #d8d8d8);
 }
 
 .cards-tarot .boton-tarot img {
@@ -255,7 +255,7 @@ footer .redes img {
 }
 
 footer .redes img:hover {
-  filter: drop-shadow(3px 3px 3px #2D4450);
+  filter: drop-shadow(3px 3px 3px #fff);
   opacity: 70%;
 }
 
@@ -282,10 +282,10 @@ footer h6 {
     font-size: 24px;
   }
   h5 {
-    font-size: 20px;
+    font-size: 18px;
   }
   h6 {
-    font-size: 18px;
+    font-size: 14px;
   }
   p {
     font-size: 18px;
@@ -320,7 +320,7 @@ footer h6 {
     margin-top: 10px;
     font-size: 14px;
     padding: 7px;
-    border: #CC4B3D solid 4px;
+    border: #CC4B3D solid 2px;
     border-radius: 60px;
     box-shadow: 0px 4px 4px 0px #00000040;
   }
@@ -347,7 +347,7 @@ footer h6 {
     justify-content: space-around;
   }
   .cards-tarot .boton-tarot:hover {
-    filter: drop-shadow(4px 4px 4px #2D4450);
+    filter: drop-shadow(4px 4px 4px #d8d8d8);
   }
   .cards-tarot .boton-tarot img {
     width: 80%;
@@ -385,7 +385,7 @@ footer h6 {
     width: 50px;
   }
   footer .redes img:hover {
-    filter: drop-shadow(6px 6px 6px #2D4450);
+    filter: drop-shadow(6px 6px 6px #fff);
   }
 }
 
@@ -396,7 +396,7 @@ footer h6 {
   }
   header {
     position: relative;
-    height: 600px;
+    height: 650px;
   }
   header .img-header {
     position: absolute;
@@ -422,13 +422,13 @@ footer h6 {
     margin-left: 25px;
     margin-top: 10px;
     font-size: 20px;
-    padding: 10px;
-    border: #CC4B3D solid 4px;
+    padding: 10px 20px;
+    border: #CC4B3D solid 3px;
     border-radius: 60px;
     box-shadow: 0px 4px 4px 0px #00000040;
   }
   .titulo-index {
-    margin: 40px 0;
+    margin: 90px 0;
   }
   .menu-cards .cards {
     border-bottom: 4px #ffffff solid;
@@ -448,9 +448,6 @@ footer h6 {
   }
   .cards-tarot {
     justify-content: space-around;
-  }
-  .cards-tarot .boton-tarot:hover {
-    filter: drop-shadow(4px 4px 4px #2D4450);
   }
   .cards-tarot .boton-tarot img {
     width: 100%;
@@ -491,6 +488,6 @@ footer h6 {
     width: 50px;
   }
   footer .redes img:hover {
-    filter: drop-shadow(6px 6px 6px #2D4450);
+    filter: drop-shadow(3px 3px 3px #fff);
   }
 }

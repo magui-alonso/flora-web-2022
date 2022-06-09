@@ -87,15 +87,7 @@ body {
             #0C0E19 63.62%,
             #132E3B 74.54%,
             #0C0E19 85.32%);
-    // background: linear-gradient(to bottom,
-    //         #0C0E19 3.13%,
-    //         #0C6073 21.72%,
-    //         #0C0E19 31.84%,
-    //         #0C0E19 50.58%,
-    //         #0C0E19 58.62%,
-    //         #0C0E19 63.62%,
-    //         #132E3B 74.54%,
-    //         #0C0E19 85.32%);
+  
 }
 
 header {
@@ -133,7 +125,7 @@ header {
             font-size: 10px;
             color: $blanco;
             padding: 5px;
-            border: $rosa solid 2px;
+            border: $rosa solid 1px;
             border-radius: 30px;
             box-shadow: 0px 4px 4px 0px #00000040;
 
@@ -167,6 +159,7 @@ header {
         flex-direction: column;
         align-items: center;
         border-bottom: 3px $blanco solid;
+     
 
         &:hover {
             border-bottom: 3px $rosa solid;
@@ -207,14 +200,12 @@ header {
 
         &:hover {
             opacity: 1;
-            filter: drop-shadow(3px 3px 3px #2D4450);
+            filter: drop-shadow(4px 4px 4px rgb(216, 216, 216));
         }
 
         img {
             width: 80%;
             margin-bottom: 30px;
-
-
         }
     }
 }
@@ -233,8 +224,6 @@ header {
         width: 50%;
     }
 }
-
-
 
 .container-sobre-mi {
     margin-top: 50px;
@@ -259,7 +248,6 @@ header {
 
 
         img {
-
             width: 25%;
             box-shadow: 0px 4px 4px 0px #00000040;
         }
@@ -306,7 +294,7 @@ footer {
             // opacity: 70%;
 
             &:hover {
-                filter: drop-shadow(3px 3px 3px #2D4450);
+                filter: drop-shadow(3px 3px 3px #fff);
                 opacity: 70%;
             }
         }
@@ -343,11 +331,11 @@ footer {
     }
 
     h5 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h6 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     p {
@@ -402,12 +390,9 @@ footer {
                 margin-top: 10px;
                 font-size: 14px;
                 padding: 7px;
-                border: $rosa solid 4px;
+                border: $rosa solid 2px;
                 border-radius: 60px;
                 box-shadow: 0px 4px 4px 0px #00000040;
-
-
-
             }
 
         }
@@ -421,7 +406,6 @@ footer {
     // ------------menu cards---------
 
     .menu-cards {
-
 
         .cards {
             border-bottom: 4px $blanco solid;
@@ -454,7 +438,7 @@ footer {
         .boton-tarot {
 
             &:hover {
-                filter: drop-shadow(4px 4px 4px #2D4450);
+                filter: drop-shadow(4px 4px 4px rgb(216, 216, 216));
             }
 
             img {
@@ -512,7 +496,7 @@ footer {
                 width: 50px;
 
                 &:hover {
-                    filter: drop-shadow(6px 6px 6px #2D4450);
+                    filter: drop-shadow(6px 6px 6px #fff);
 
                 }
             }
@@ -544,7 +528,7 @@ footer {
     header {
 
         position: relative;
-        height: 600px;
+        height: 650px;
 
 
         .img-header {
@@ -574,20 +558,17 @@ footer {
                 margin-left: 25px;
                 margin-top: 10px;
                 font-size: 20px;
-                padding: 10px;
-                border: $rosa solid 4px;
+                padding: 10px 20px ;
+                border: $rosa solid 3px;
                 border-radius: 60px;
                 box-shadow: 0px 4px 4px 0px #00000040;
-
-
-
             }
 
         }
     }
 
     .titulo-index {
-        margin: 40px 0;
+        margin: 90px 0;
 
     }
 
@@ -625,18 +606,12 @@ footer {
         justify-content: space-around;
 
         .boton-tarot {
-
-            &:hover {
-                filter: drop-shadow(4px 4px 4px #2D4450);
-            }
-
             img {
                 width: 100%;
                 margin-bottom: 60px;
             }
         }
     }
-
 
     .modal-body {
 
@@ -645,8 +620,6 @@ footer {
 
         }
     }
-
-
 
     .container-sobre-mi {
         margin-top: 200px;
@@ -689,7 +662,7 @@ footer {
                 width: 50px;
 
                 &:hover {
-                    filter: drop-shadow(6px 6px 6px #2D4450);
+                    filter: drop-shadow(3px 3px 3px #fff);
 
                 }
             }
