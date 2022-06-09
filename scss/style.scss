@@ -326,7 +326,7 @@ footer {
 
 @media (min-width: 768px) {
 
-    h1 {
+    h1{
         font-size: 64px;
     }
 
@@ -526,37 +526,7 @@ footer {
 }
 
 
-@media (min-width: 1200px) {
-
-    h1 {
-        font-size: 64px;
-    }
-
-    h2 {
-        font-size: 48px;
-    }
-
-    h3 {
-        font-size: 36px;
-    }
-
-    h4 {
-        font-size: 24px;
-    }
-
-    h5 {
-        font-size: 20px;
-    }
-
-    h6 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-
+@media (min-width: 968px) {
 
     body {
         background: #0C0E19;
@@ -574,7 +544,7 @@ footer {
     header {
 
         position: relative;
-        height: 750px;
+        height: 600px;
 
 
         .img-header {
@@ -589,13 +559,15 @@ footer {
             h1 {
                 margin-left: 25px;
                 margin-top: 20px;
+                font-size: 70px;
             }
 
             h4 {
                 font-family: $bad;
                 margin-left: 25px;
-                margin-top: 10px;
-                margin-bottom: 20px;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                font-size: 48px;
             }
 
             .boton {

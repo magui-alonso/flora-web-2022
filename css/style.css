@@ -389,35 +389,14 @@ footer h6 {
   }
 }
 
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 64px;
-  }
-  h2 {
-    font-size: 48px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  h4 {
-    font-size: 24px;
-  }
-  h5 {
-    font-size: 20px;
-  }
-  h6 {
-    font-size: 18px;
-  }
-  p {
-    font-size: 18px;
-  }
+@media (min-width: 968px) {
   body {
     background: #0C0E19;
     background: linear-gradient(to bottom, #0C0E19 3.13%, #0C6073 21.72%, #0C0E19 31.84%, #0C0E19 50.58%, #0C0E19 58.62%, #0C0E19 63.62%, #132E3B 74.54%, #0C0E19 85.32%);
   }
   header {
     position: relative;
-    height: 750px;
+    height: 600px;
   }
   header .img-header {
     position: absolute;
@@ -430,12 +409,14 @@ footer h6 {
   header .texto-header h1 {
     margin-left: 25px;
     margin-top: 20px;
+    font-size: 70px;
   }
   header .texto-header h4 {
     font-family: "Bad Script", cursive;
     margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 48px;
   }
   header .texto-header .boton {
     margin-left: 25px;
