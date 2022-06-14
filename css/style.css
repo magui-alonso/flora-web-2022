@@ -584,6 +584,9 @@ footer h6 {
   .menu-cards-secciones .cards-b:hover {
     border-bottom: 4px #CC4B3D solid;
   }
+  .menu-cards-secciones .cards-b h4 {
+    font-size: 18px;
+  }
   .blog section a {
     font-size: 18px;
   }
