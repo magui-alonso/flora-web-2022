@@ -485,10 +485,10 @@ footer h6 {
     margin: 40px 0;
   }
   .menu-cards .cards {
-    border-bottom: 4px #ffffff solid;
+    border-bottom: 3px #ffffff solid;
   }
   .menu-cards .cards:hover {
-    border-bottom: 4px #CC4B3D solid;
+    border-bottom: 3px #CC4B3D solid;
     box-shadow: 0 8px 6px -6px black;
   }
   .menu-cards .cards img {
