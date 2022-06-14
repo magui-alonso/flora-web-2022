@@ -38,6 +38,7 @@ h6 {
 
 p {
   font-size: 10px;
+  font-weight: 300;
 }
 
 p,
@@ -58,6 +59,12 @@ a {
 }
 
 a:hover {
+  color: #fff;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
   color: #fff;
 }
 
@@ -228,6 +235,7 @@ header .texto-header .boton:hover {
 
 .container-sobre-mi .card-sobre-mi p {
   font-size: 9px;
+  font-weight: 300;
 }
 
 footer {
@@ -263,14 +271,161 @@ footer h6 {
   text-align: center;
 }
 
-.body-blog {
+.body-secciones {
+  background: #0C0E19;
+}
+
+.header-secciones {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(247, 135, 103, 0.1672) 0%, rgba(12, 51, 65, 0.44) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 25px;
   width: 100%;
+  height: 220px;
+}
+
+.header-secciones .header-img-secciones {
+  width: 45%;
+  z-index: 12;
+}
+
+.header-secciones .header-img-secciones img {
+  width: 100%;
+}
+
+.header-secciones .header-secciones-textos {
+  width: 60%;
+  z-index: 10;
+  padding: 10px;
+}
+
+.header-secciones .header-secciones-textos h1 {
+  font-family: "Bad Script", cursive;
+  font-size: 24px;
+}
+
+.header-secciones .header-secciones-textos h3 {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.header-secciones .header-secciones-textos p {
+  width: 100%;
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 12px;
+}
+
+.header-secciones .header-secciones-textos .boton-2 {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 10px;
+  color: #ffffff;
+  padding: 1px 15px;
+  border: #CC4B3D solid 1px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.header-secciones .header-secciones-textos .boton-2:hover {
+  background-color: #CC4B3D;
+}
+
+.menu-cards-secciones {
+  position: relative;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: auto;
+  z-index: 5;
+}
+
+.menu-cards-secciones .cards-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px #ffffff solid;
+  margin-top: 200px;
+}
+
+.menu-cards-secciones .cards-b:hover {
+  border-bottom: 3px #CC4B3D solid;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.menu-cards-secciones .cards-b img {
+  width: 50%;
+  height: auto;
+}
+
+.menu-cards-secciones .cards-b p {
+  padding: 0 5px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.blog {
+  margin: auto;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.blog section {
+  margin-bottom: 40px;
+}
+
+.blog section p {
+  font-weight: 300;
+}
+
+.blog section img {
+  width: 20px;
+}
+
+.blog section a {
+  font-size: 10px;
+}
+
+.videos {
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.videos .cont-videos {
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.videos .cont-videos iframe {
+  width: 100%;
+  height: 315px;
+}
+
+.videos .cont-videos .texto-videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videos .cont-videos .texto-videos h3 {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.videos .cont-videos .texto-videos img {
+  width: 20px;
+  margin: 5px;
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 64px;
+    font-size: 48px;
   }
   h2 {
     font-size: 48px;
@@ -289,6 +444,7 @@ footer h6 {
   }
   p {
     font-size: 18px;
+    font-weight: 300;
   }
   body {
     background: #0C0E19;
@@ -387,6 +543,50 @@ footer h6 {
   footer .redes img:hover {
     filter: drop-shadow(6px 6px 6px #fff);
   }
+  .header-secciones {
+    height: 390px;
+    padding-top: 20px;
+  }
+  .header-secciones .header-secciones-textos {
+    height: 300px;
+    width: 50%;
+    padding-top: 30px;
+  }
+  .header-secciones .header-secciones-textos h1 {
+    font-size: 48px;
+  }
+  .header-secciones .header-secciones-textos h3 {
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+  }
+  .header-secciones .header-secciones-textos p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 50px;
+  }
+  .header-secciones .header-secciones-textos .boton-2 {
+    font-size: 18px;
+    padding: 3px 20px;
+    margin-right: 20px;
+  }
+  .menu-cards-secciones .cards-b {
+    border-bottom: 4px #ffffff solid;
+    margin-top: 360px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu-cards-secciones .cards-b:hover {
+    border-bottom: 6px #CC4B3D solid;
+  }
+  .blog section a {
+    font-size: 18px;
+  }
+  .videos .cont-videos .texto-videos h3 {
+    font-size: 18px;
+  }
+  .videos .cont-videos .texto-videos img {
+    width: 30px;
+  }
 }
 
 @media (min-width: 968px) {
@@ -422,7 +622,7 @@ footer h6 {
     margin-left: 25px;
     margin-top: 10px;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border: #CC4B3D solid 3px;
     border-radius: 60px;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -442,6 +642,7 @@ footer h6 {
   }
   .menu-cards .cards p {
     padding: 0 15px;
+    font-weight: 300;
   }
   .titulo-tarot {
     margin: 100px 0 50px 0;
@@ -476,6 +677,7 @@ footer h6 {
   }
   .container-sobre-mi .card-sobre-mi p {
     font-size: 18px;
+    font-weight: 300;
   }
   footer {
     margin-bottom: 30px;
@@ -489,5 +691,54 @@ footer h6 {
   }
   footer .redes img:hover {
     filter: drop-shadow(3px 3px 3px #fff);
+  }
+  .header-secciones {
+    height: 580px;
+    padding-top: 20px;
+  }
+  .header-secciones .header-img-secciones img {
+    width: 80%;
+  }
+  .header-secciones .header-secciones-textos {
+    height: 400px;
+    width: 45%;
+    padding-top: 60px;
+  }
+  .header-secciones .header-secciones-textos h1 {
+    font-size: 64px;
+  }
+  .header-secciones .header-secciones-textos h3 {
+    margin: 40px 0 20px 0;
+    font-size: 36px;
+  }
+  .header-secciones .header-secciones-textos p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 80px;
+    font-weight: 300;
+  }
+  .header-secciones .header-secciones-textos .boton-2 {
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-right: 20px;
+  }
+  .menu-cards-secciones .cards-b {
+    border-bottom: 4px #ffffff solid;
+    margin-top: 540px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu-cards-secciones .cards-b:hover {
+    border-bottom: 6px #CC4B3D solid;
+  }
+  .blog {
+    width: 68%;
+    margin-top: 120px;
+  }
+  .blog section {
+    margin-bottom: 80px;
+  }
+  .videos .cont-videos .texto-videos h3 {
+    font-size: 24px;
   }
 }
