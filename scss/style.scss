@@ -373,6 +373,7 @@ footer {
 
             &:hover {
                 background-color: $rosa;
+                border-radius: 30px;
             }
         }
     }
@@ -717,7 +718,7 @@ footer {
             padding-right: 20px;
 
             &:hover {
-                border-bottom: 6px $rosa solid;
+                border-bottom: 4px $rosa solid;
             }
 
         }
@@ -974,7 +975,7 @@ footer {
             padding-right: 20px;
 
             &:hover {
-                border-bottom: 6px $rosa solid;
+                border-bottom: 4px $rosa solid;
             }
 
         }

@@ -332,6 +332,7 @@ footer h6 {
 
 .header-secciones .header-secciones-textos .boton-2:hover {
   background-color: #CC4B3D;
+  border-radius: 30px;
 }
 
 .menu-cards-secciones {
@@ -576,7 +577,7 @@ footer h6 {
     padding-right: 20px;
   }
   .menu-cards-secciones .cards-b:hover {
-    border-bottom: 6px #CC4B3D solid;
+    border-bottom: 4px #CC4B3D solid;
   }
   .blog section a {
     font-size: 18px;
@@ -729,7 +730,7 @@ footer h6 {
     padding-right: 20px;
   }
   .menu-cards-secciones .cards-b:hover {
-    border-bottom: 6px #CC4B3D solid;
+    border-bottom: 4px #CC4B3D solid;
   }
   .blog {
     width: 68%;
