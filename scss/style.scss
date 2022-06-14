@@ -375,6 +375,10 @@ footer {
                 background-color: $rosa;
                 border-radius: 30px;
             }
+            &:focus {
+                background-color: $rosa;
+                border-radius: 30px;
+            }
         }
     }
 }

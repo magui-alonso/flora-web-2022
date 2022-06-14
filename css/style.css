@@ -335,6 +335,11 @@ footer h6 {
   border-radius: 30px;
 }
 
+.header-secciones .header-secciones-textos .boton-2:focus {
+  background-color: #CC4B3D;
+  border-radius: 30px;
+}
+
 .menu-cards-secciones {
   position: relative;
   width: 95%;
