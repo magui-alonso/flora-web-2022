@@ -489,6 +489,83 @@ footer {
     }
 }
 
+// -------------- contenido consultas --------
+.consultas {
+    width: 80%;
+    margin: auto;
+
+    .seccion-form-consultas {
+        margin: 20px 0;
+
+
+        h4 {
+            text-align: center;
+            font-size: 20px;
+            margin: 30px;
+        }
+
+        .containerForm {
+            margin: auto;
+        }
+
+        .campos-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .label-form {
+                font-family: $open;
+                color: #ffffff;
+                font-size: 11px;
+
+            }
+
+            .inputs-form {
+                background-color: transparent;
+                width: 100%;
+                border: none;
+                border-bottom: #CC4B3D solid 2px;
+                margin-bottom: 20px;
+                height: 20px;
+
+            }
+
+            #botonEnviar {
+                color: #fff;
+                background-color: transparent;
+                font-family: $open;
+                font-size: 9px;
+                color: $blanco;
+                padding: 2px 20px;
+                border: $rosa solid 1px;
+                border-radius: 30px;
+                box-shadow: 0px 4px 4px 0px #00000040;
+
+                &:hover {
+                    background-color: $rosa;
+                }
+            }
+        }
+    }
+
+    .texto-consultas {
+        font-family: $bad;
+        font-size: 28px;
+        text-align: center;
+        margin: 50px 0 25px 0;
+        text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+
+    }
+
+    .respuestas {
+        margin: 40px 0;
+
+        h4 {
+            text-align: center;
+        }
+    }
+
+}
 
 @media (min-width: 768px) {
 
@@ -759,10 +836,39 @@ footer {
         }
     }
 
+    .seccion-form-consultas {
+
+        margin: 80px 0;
+
+        h4 {
+            font-size: 24px;
+            margin: 30px;
+        }
+
+        .campos-form {
+
+            .label-form {
+                font-size: 18px;
+            }
+
+            .inputs-form {
+                width: 80%;
+                margin-bottom: 30px;
+                height: 40px;
+            }
+
+            #botonEnviar {
+
+                font-size: 18px;
+                padding: 2px 40px;
+
+            }
+        }
 
 
+
+    }
 }
-
 
 @media (min-width: 968px) {
 
@@ -1018,10 +1124,5 @@ footer {
             }
         }
     }
-
-
-
-
-
 
 }

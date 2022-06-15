@@ -435,6 +435,78 @@ footer h6 {
   margin: 5px;
 }
 
+.consultas {
+  width: 80%;
+  margin: auto;
+}
+
+.consultas .seccion-form-consultas {
+  margin: 20px 0;
+}
+
+.consultas .seccion-form-consultas h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.consultas .seccion-form-consultas .containerForm {
+  margin: auto;
+}
+
+.consultas .seccion-form-consultas .campos-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.consultas .seccion-form-consultas .campos-form .label-form {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.consultas .seccion-form-consultas .campos-form .inputs-form {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  border-bottom: #CC4B3D solid 2px;
+  margin-bottom: 20px;
+  height: 20px;
+}
+
+.consultas .seccion-form-consultas .campos-form #botonEnviar {
+  color: #fff;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-size: 9px;
+  color: #ffffff;
+  padding: 2px 20px;
+  border: #CC4B3D solid 1px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.consultas .seccion-form-consultas .campos-form #botonEnviar:hover {
+  background-color: #CC4B3D;
+}
+
+.consultas .texto-consultas {
+  font-family: "Bad Script", cursive;
+  font-size: 28px;
+  text-align: center;
+  margin: 50px 0 25px 0;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.consultas .respuestas {
+  margin: 40px 0;
+}
+
+.consultas .respuestas h4 {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 48px;
@@ -594,6 +666,25 @@ footer h6 {
   }
   .videos .cont-videos .texto-videos img {
     width: 30px;
+  }
+  .seccion-form-consultas {
+    margin: 80px 0;
+  }
+  .seccion-form-consultas h4 {
+    font-size: 24px;
+    margin: 30px;
+  }
+  .seccion-form-consultas .campos-form .label-form {
+    font-size: 18px;
+  }
+  .seccion-form-consultas .campos-form .inputs-form {
+    width: 80%;
+    margin-bottom: 30px;
+    height: 40px;
+  }
+  .seccion-form-consultas .campos-form #botonEnviar {
+    font-size: 18px;
+    padding: 2px 40px;
   }
 }
 
