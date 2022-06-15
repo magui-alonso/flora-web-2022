@@ -117,6 +117,7 @@ header {
             font-family: $bad;
             margin-left: 12.5px;
             margin-top: 10px;
+            text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
         }
 
         h4 {
@@ -124,14 +125,15 @@ header {
             margin-left: 12.5px;
             margin-top: 5px;
             margin-bottom: 10px;
+            text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
         }
 
         .boton {
             margin-left: 12.5px;
             margin-top: 5px;
-            font-size: 10px;
+            font-size: 9px;
             color: $blanco;
-            padding: 3px 15px;
+            padding: 1px 10px;
             border: $rosa solid 1px;
             border-radius: 30px;
             box-shadow: 0px 4px 4px 0px #00000040;
@@ -148,7 +150,9 @@ header {
 .titulo-index {
     font-family: $bad;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 0 20px 0;
+    text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+
 
 }
 
@@ -191,6 +195,7 @@ header {
     font-family: $bad;
     text-align: center;
     margin: 50px 0 25px 0;
+    text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 
@@ -207,7 +212,8 @@ header {
 
         &:hover {
             opacity: 1;
-            filter: drop-shadow(4px 4px 4px rgb(216, 216, 216));
+            filter: drop-shadow(2px 2px 6px #fff);
+
         }
 
         img {
@@ -265,6 +271,7 @@ header {
 
         .card-title {
             font-family: $bad;
+            text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
         }
 
         p {
@@ -299,11 +306,10 @@ footer {
 
         img {
             width: 25px;
-            // opacity: 70%;
 
             &:hover {
-                filter: drop-shadow(3px 3px 3px #fff);
-                opacity: 70%;
+                filter: drop-shadow(1px 1px 4px #fff);
+
             }
         }
     }
@@ -346,6 +352,7 @@ footer {
         h1 {
             font-family: $bad;
             font-size: 24px;
+            text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
         }
 
         h3 {
@@ -364,9 +371,9 @@ footer {
         .boton-2 {
             margin-top: 5px;
             margin-right: 20px;
-            font-size: 10px;
+            font-size: 9px;
             color: $blanco;
-            padding: 1px 15px;
+            padding: 1px 10px;
             border: $rosa solid 1px;
             border-radius: 30px;
             box-shadow: 0px 4px 4px 0px #00000040;
@@ -375,6 +382,7 @@ footer {
                 background-color: $rosa;
                 border-radius: 30px;
             }
+
             &:focus {
                 background-color: $rosa;
                 border-radius: 30px;
@@ -469,13 +477,11 @@ footer {
             h3 {
                 font-family: $open;
                 margin: 0;
-                // font-size: 24px;
-
+                font-weight: 300;
             }
 
             img {
                 width: 20px;
-                // width: 30px;
                 margin: 5px;
             }
 
@@ -562,7 +568,6 @@ footer {
                 margin-left: 25px;
                 margin-top: 10px;
                 font-size: 14px;
-                padding: 7px;
                 border: $rosa solid 2px;
                 border-radius: 60px;
                 box-shadow: 0px 4px 4px 0px #00000040;
@@ -609,10 +614,6 @@ footer {
         justify-content: space-around;
 
         .boton-tarot {
-
-            &:hover {
-                filter: drop-shadow(4px 4px 4px rgb(216, 216, 216));
-            }
 
             img {
                 width: 80%;
@@ -668,10 +669,6 @@ footer {
             img {
                 width: 50px;
 
-                &:hover {
-                    filter: drop-shadow(6px 6px 6px #fff);
-
-                }
             }
 
         }
@@ -706,7 +703,7 @@ footer {
             }
 
             .boton-2 {
-                font-size: 18px;
+                font-size: 14px;
                 padding: 3px 20px;
                 margin-right: 20px;
             }
@@ -724,8 +721,9 @@ footer {
             &:hover {
                 border-bottom: 4px $rosa solid;
             }
+
             h4 {
-                font-size: 18px;
+                font-size: 14px;
             }
 
         }
@@ -748,11 +746,12 @@ footer {
 
     .videos {
         .cont-videos {
-            
+
             .texto-videos {
                 h3 {
                     font-size: 18px;
                 }
+
                 img {
                     width: 30px;
                 }
@@ -813,7 +812,7 @@ footer {
                 margin-left: 25px;
                 margin-top: 10px;
                 font-size: 20px;
-                padding: 5px 20px;
+                padding: 3px 20px;
                 border: $rosa solid 1px;
                 border-radius: 60px;
                 box-shadow: 0px 4px 4px 0px #00000040;
@@ -823,11 +822,12 @@ footer {
     }
 
     .titulo-index {
-        margin: 90px 0;
+        font-size: 65px;
+        margin: 70px 0;
 
     }
 
-    // ------------menu cards---------
+    // ------------menu cards index---------
 
     .menu-cards {
 
@@ -841,7 +841,7 @@ footer {
             }
 
             img {
-                width: 50%;
+                width: 40%;
             }
 
             p {
@@ -862,6 +862,11 @@ footer {
         justify-content: space-around;
 
         .boton-tarot {
+
+            &:hover {
+                filter: drop-shadow(1px 1px 10px #fff);
+            }
+
             img {
                 width: 100%;
                 margin-bottom: 60px;
@@ -878,7 +883,7 @@ footer {
     }
 
     .container-sobre-mi {
-        margin-top: 200px;
+        margin-top: 120px;
         height: 700px;
 
         .card-sobre-mi {
@@ -918,10 +923,6 @@ footer {
             img {
                 width: 50px;
 
-                &:hover {
-                    filter: drop-shadow(3px 3px 3px #fff);
-
-                }
             }
 
         }
@@ -932,7 +933,7 @@ footer {
 
     .header-secciones {
 
-        height: 580px;
+        height: 530px;
         padding-top: 20px;
 
         .header-img-secciones {
@@ -965,7 +966,7 @@ footer {
 
             .boton-2 {
                 font-size: 20px;
-                padding: 5px 20px;
+                padding: 3px 20px;
                 margin-right: 20px;
 
 
@@ -977,12 +978,16 @@ footer {
 
         .cards-b {
             border-bottom: 4px $blanco solid;
-            margin-top: 540px;
+            margin-top: 490px;
             padding-left: 20px;
             padding-right: 20px;
 
             &:hover {
                 border-bottom: 4px $rosa solid;
+            }
+
+            h4 {
+                font-size: 18px;
             }
 
         }
@@ -1001,15 +1006,15 @@ footer {
 
     }
 
-      // --------------------- contenido videos -----------
+    // --------------------- contenido videos -----------
     .videos {
         .cont-videos {
-            
+
             .texto-videos {
                 h3 {
                     font-size: 24px;
                 }
-                
+
             }
         }
     }

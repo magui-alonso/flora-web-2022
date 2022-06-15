@@ -93,6 +93,7 @@ header .texto-header h1 {
   font-family: "Bad Script", cursive;
   margin-left: 12.5px;
   margin-top: 10px;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 header .texto-header h4 {
@@ -100,14 +101,15 @@ header .texto-header h4 {
   margin-left: 12.5px;
   margin-top: 5px;
   margin-bottom: 10px;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 header .texto-header .boton {
   margin-left: 12.5px;
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 9px;
   color: #ffffff;
-  padding: 3px 15px;
+  padding: 1px 10px;
   border: #CC4B3D solid 1px;
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -120,7 +122,8 @@ header .texto-header .boton:hover {
 .titulo-index {
   font-family: "Bad Script", cursive;
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 .menu-cards {
@@ -157,6 +160,7 @@ header .texto-header .boton:hover {
   font-family: "Bad Script", cursive;
   text-align: center;
   margin: 50px 0 25px 0;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 .cards-tarot {
@@ -174,7 +178,7 @@ header .texto-header .boton:hover {
 
 .cards-tarot .boton-tarot:hover {
   opacity: 1;
-  filter: drop-shadow(4px 4px 4px #d8d8d8);
+  filter: drop-shadow(2px 2px 6px #fff);
 }
 
 .cards-tarot .boton-tarot img {
@@ -231,6 +235,7 @@ header .texto-header .boton:hover {
 
 .container-sobre-mi .card-sobre-mi .card-title {
   font-family: "Bad Script", cursive;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 .container-sobre-mi .card-sobre-mi p {
@@ -263,8 +268,7 @@ footer .redes img {
 }
 
 footer .redes img:hover {
-  filter: drop-shadow(3px 3px 3px #fff);
-  opacity: 70%;
+  filter: drop-shadow(1px 1px 4px #fff);
 }
 
 footer h6 {
@@ -305,6 +309,7 @@ footer h6 {
 .header-secciones .header-secciones-textos h1 {
   font-family: "Bad Script", cursive;
   font-size: 24px;
+  text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
 .header-secciones .header-secciones-textos h3 {
@@ -322,9 +327,9 @@ footer h6 {
 .header-secciones .header-secciones-textos .boton-2 {
   margin-top: 5px;
   margin-right: 20px;
-  font-size: 10px;
+  font-size: 9px;
   color: #ffffff;
-  padding: 1px 15px;
+  padding: 1px 10px;
   border: #CC4B3D solid 1px;
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -422,6 +427,7 @@ footer h6 {
 .videos .cont-videos .texto-videos h3 {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  font-weight: 300;
 }
 
 .videos .cont-videos .texto-videos img {
@@ -481,7 +487,6 @@ footer h6 {
     margin-left: 25px;
     margin-top: 10px;
     font-size: 14px;
-    padding: 7px;
     border: #CC4B3D solid 2px;
     border-radius: 60px;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -507,9 +512,6 @@ footer h6 {
   }
   .cards-tarot {
     justify-content: space-around;
-  }
-  .cards-tarot .boton-tarot:hover {
-    filter: drop-shadow(4px 4px 4px #d8d8d8);
   }
   .cards-tarot .boton-tarot img {
     width: 80%;
@@ -546,9 +548,6 @@ footer h6 {
   footer .redes img {
     width: 50px;
   }
-  footer .redes img:hover {
-    filter: drop-shadow(6px 6px 6px #fff);
-  }
   .header-secciones {
     height: 390px;
     padding-top: 20px;
@@ -571,7 +570,7 @@ footer h6 {
     margin-bottom: 50px;
   }
   .header-secciones .header-secciones-textos .boton-2 {
-    font-size: 18px;
+    font-size: 14px;
     padding: 3px 20px;
     margin-right: 20px;
   }
@@ -585,7 +584,7 @@ footer h6 {
     border-bottom: 4px #CC4B3D solid;
   }
   .menu-cards-secciones .cards-b h4 {
-    font-size: 18px;
+    font-size: 14px;
   }
   .blog section a {
     font-size: 18px;
@@ -631,13 +630,14 @@ footer h6 {
     margin-left: 25px;
     margin-top: 10px;
     font-size: 20px;
-    padding: 5px 20px;
+    padding: 3px 20px;
     border: #CC4B3D solid 1px;
     border-radius: 60px;
     box-shadow: 0px 4px 4px 0px #00000040;
   }
   .titulo-index {
-    margin: 90px 0;
+    font-size: 65px;
+    margin: 70px 0;
   }
   .menu-cards .cards {
     border-bottom: 4px #ffffff solid;
@@ -647,7 +647,7 @@ footer h6 {
     box-shadow: 0 8px 6px -6px black;
   }
   .menu-cards .cards img {
-    width: 50%;
+    width: 40%;
   }
   .menu-cards .cards p {
     padding: 0 15px;
@@ -659,6 +659,9 @@ footer h6 {
   .cards-tarot {
     justify-content: space-around;
   }
+  .cards-tarot .boton-tarot:hover {
+    filter: drop-shadow(1px 1px 10px #fff);
+  }
   .cards-tarot .boton-tarot img {
     width: 100%;
     margin-bottom: 60px;
@@ -667,7 +670,7 @@ footer h6 {
     margin-bottom: 20px;
   }
   .container-sobre-mi {
-    margin-top: 200px;
+    margin-top: 120px;
     height: 700px;
   }
   .container-sobre-mi .card-sobre-mi {
@@ -698,11 +701,8 @@ footer h6 {
   footer .redes img {
     width: 50px;
   }
-  footer .redes img:hover {
-    filter: drop-shadow(3px 3px 3px #fff);
-  }
   .header-secciones {
-    height: 580px;
+    height: 530px;
     padding-top: 20px;
   }
   .header-secciones .header-img-secciones img {
@@ -728,17 +728,20 @@ footer h6 {
   }
   .header-secciones .header-secciones-textos .boton-2 {
     font-size: 20px;
-    padding: 5px 20px;
+    padding: 3px 20px;
     margin-right: 20px;
   }
   .menu-cards-secciones .cards-b {
     border-bottom: 4px #ffffff solid;
-    margin-top: 540px;
+    margin-top: 490px;
     padding-left: 20px;
     padding-right: 20px;
   }
   .menu-cards-secciones .cards-b:hover {
     border-bottom: 4px #CC4B3D solid;
+  }
+  .menu-cards-secciones .cards-b h4 {
+    font-size: 18px;
   }
   .blog {
     width: 68%;
