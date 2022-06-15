@@ -107,6 +107,7 @@ header .texto-header h4 {
 header .texto-header .boton {
   margin-left: 12.5px;
   margin-top: 5px;
+  background-color: transparent;
   font-size: 9px;
   color: #ffffff;
   padding: 1px 10px;
@@ -327,6 +328,7 @@ footer h6 {
 .header-secciones .header-secciones-textos .boton-2 {
   margin-top: 5px;
   margin-right: 20px;
+  background-color: transparent;
   font-size: 9px;
   color: #ffffff;
   padding: 1px 10px;
@@ -337,7 +339,6 @@ footer h6 {
 
 .header-secciones .header-secciones-textos .boton-2:hover {
   background-color: #CC4B3D;
-  border-radius: 30px;
 }
 
 .header-secciones .header-secciones-textos .boton-2:focus {
@@ -446,7 +447,7 @@ footer h6 {
 
 .consultas .seccion-form-consultas h4 {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   margin: 30px;
 }
 
